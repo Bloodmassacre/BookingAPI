@@ -1,4 +1,5 @@
-﻿namespace Api.Models
+﻿using Microsoft.Extensions.Logging;
+namespace Api.Models
 {
     public class Booking
     {
