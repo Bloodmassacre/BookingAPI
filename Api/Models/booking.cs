@@ -5,8 +5,8 @@ namespace Api.Models
     {
         public int Id { get; set; }
         public int event_id { get; set; }
-        public int user_id { get; set; }
-        public DateTime create_at { get; set; } = DateTime.Now;
+        public string user_id { get; set; }
+        public DateTime createDate { get; set; } = DateTime.Now;
 
     }
 }
